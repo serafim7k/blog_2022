@@ -2,6 +2,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 # print(basedir)
 
+
 # print(os.environ.get('DATABASE_URL'))
 # print('sqlite:///' + os.path.join(basedir, 'app.db'))
 class Config(object):
